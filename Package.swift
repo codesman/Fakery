@@ -1,5 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Fakery"
+    name: "Fakery",
+	exclude: [
+		"Tests"
+	]
 )
